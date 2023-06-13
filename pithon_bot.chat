@@ -1,0 +1,24 @@
+{
+  "version" : "0.2.0",
+  "activeDialogId" : 0,
+  "uiState" : {
+    "sidePanelOpen" : false
+  },
+  "dialogs" : [ {
+    "name" : "New chat",
+    "id" : 0,
+    "messages" : [ {
+      "type" : "RE_TMP_CHAT",
+      "context" : {
+        "type" : "NONE"
+      },
+      "rawContent" : "This is a temporary chat. You can save it by clicking below button or 'Save as' in File menu:",
+      "content" : {
+        "0" : {
+          "type" : "MARKDOWN",
+          "content" : "This is a temporary chat. You can save it by clicking below button or 'Save as' in File menu:"
+        }
+      }
+    } ]
+  } ]
+}
