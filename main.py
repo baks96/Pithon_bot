@@ -107,10 +107,10 @@ def main():
     # Создаем объект Bot и передаем ему токен вашего бота и объект Request
     bot = Bot(token='6013445400:AAGxXN9oMk_YgOkNAEeONKfnfacanoV5n3Y', request=request)
 
-    #  объект Updater и передаем ему объект Bot
+    #  объект Updater и передаем ему объект
     updater = Updater(bot=bot)
 
-    #  регистратор обработчиков из объекта Updater
+    #  регистратор обработчиков из объекта
     dispatcher = updater.dispatcher
 
     #  обработчики команд
